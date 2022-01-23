@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato";
+  color: rgba(0, 0, 0, 0.8);
+}
+
+body {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#logo,
+nav,
+.link-list {
+  display: flex;
+}
+
+#logo {
+  margin-right: 5rem;
+}
+
+nav {
+  align-items: center;
+  margin: 1rem 2rem;
+}
+
+#logo,
+.link-list {
+  gap: 1.5rem;
+}
+
+.link-list {
+  flex: auto;
+  list-style: none;
+}
+
+.list-right {
+  margin-left: auto;
+}
+
+main {
+  background: #d9e8e5;
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+.main-section {
+  width: 70%;
+}
+
+.section-title {
+  margin-bottom: 1.5rem;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-up,
+.gallery-down {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.gallery-up {
+  margin-bottom: 1rem;
+}
+
+.gallery-img {
+  width: 20rem;
+  flex-grow: 1;
+}
+
+.gallery-img {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.price {
+  padding-top: 15rem;
+}
+
+.img1 {
+  background: url(../img/ring001.png) center/cover no-repeat;
+}
+
+.img2 {
+  background: url(../img/ring002.png) center/cover no-repeat;
+}
+
+.img3 {
+  background: url(../img/ring003.png) center/cover no-repeat;
+}
+
+.img4 {
+  background: url(../img/ring004.png) center/cover no-repeat;
+}
+
+.img5 {
+  background: url(../img/ring005.png) center/cover no-repeat;
+}
+
+.img6 {
+  background: url(../img/ring006.png) center/cover no-repeat;
+}
