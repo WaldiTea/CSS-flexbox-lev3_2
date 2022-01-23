@@ -8,11 +8,6 @@
   color: rgba(0, 0, 0, 0.8);
 }
 
-body {
-  width: 1440px;
-  margin: 0 auto;
-}
-
 h1,
 h2 {
   font-weight: 400;
@@ -95,7 +90,7 @@ main {
 }
 
 .price {
-  padding-top: 15rem;
+  padding-top: 16rem;
 }
 
 .img1 {
